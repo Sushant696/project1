@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity Adimission form </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            
+            background: linear-gradient(90deg,#2abf40, #5bb9c9);
+            height: 100vh;
+           
+        }
+ 
+        .flex-container {
+        display: flex;
+       padding: 2rem;
+}  
+         .flex-container img{
+      width: 195px;
+         border-radius: 50%;
+  
+ 
+
+}
+        .flex-container h1 {
+       font-size: 40px;
+       padding: 2rem;
+        }
+
+
+        .container{
+            max-width: 660px;
+            border: 2px solid #f4f4f4;
+            width: 100%;
+            padding: 1.4rem 1.8rem;
+            border-radius: 10px;
+            display: flex;
+             align-items: center;
+            justify-content: center;
+            
+
+            
+
+        }
+        .container form .student-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            line-height: 1.7rem;
+            cursor: pointer;
+        }
+        form .student-details .input-box {
+      width: calc(100% / 2 - 20px);
+        }
+         .student-details .input-box input
+          {
+
+         height: 36px;
+         width: 100%;
+         outline:#71b7e6 0.9px solid ;
+         border-radius: 6px;
+         border: #9b59b6 solid 1.8px ;
+         padding: 0.2rem;
+         
+        }
+          .subs{
+            line-height: 2rem;
+            word-spacing: 1px;
+
+        }
+             
+                
+      form .btn input {
+          text-align: center;
+        width: 100%;
+       height: 30px;
+       border-radius: 10px; 
+       border: 2px solid #ccc ;
+       outline: none;
+       background: linear-gradient(90deg  , #b06ab3,#4568dc );
+       
+       
+    }
+
+    </style>
+</head>
+<body>
+    
+
+        <header class="top-section" >
+            <div class="flex-container" >
+                                
+            <img src="/logo/amitylogo.jpg" alt="my image">
+            <h1>AMITY EDUCATION FOUNDATION PVT LTD </h1> 
+              </div>
+            </header>
+                <marquee behavior="alternate" direction="right">ADMISSION OPEN FROM NURSERY TO BBS</marquee>
+        
+    
+    <div class="container">
+        <div class="tittle"> <b> Adimission Form</b></div>
+        <form action="./info.html">
+            <div class="student-details">
+                <div class="input-box">
+                    <span class="details">First Name</span> 
+                    <input type="text" placeholder="Enter Your Name" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">last Name</span> 
+                    <input type="text" placeholder="Enter Your Last Name" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span> 
+                    <input type="text" placeholder="Enter Your Address" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span> 
+                    <input type="Email" placeholder="Enter Your Email" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">Father Name</span> 
+                    <input type="text" placeholder="Enter your Father's Name" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">Mother Name</span> 
+                    <input type="text" placeholder="Enter Your Mother's Name" required  >
+                </div>
+                <div class="input-box">
+                    <span class="details">Date of Birth</span> 
+                    <input type="date" placeholder="Enter Your Name" required  >
+
+                
+                </div>
+                <div class="input-box">
+                    <span class="details">Nationality</span> 
+                    <input type="text" placeholder="Enter Your Nationality" required  >
+
+                
+                </div>
+            </div>
+                
+                <div class="input-box subs">
+                    <span for="subject">Prefered subject : </span>
+                    <input name="sub" type="radio">Computer science
+                    <input name="sub" type="radio"> Business Studies
+                    <input name="sub"  type="radio">Hotel Management
+                  
+                </div>
+                <div class="btn  ">  
+                <input type="submit" value="Register" >
+                </div>
+
+        </form>
+    </div>
+</body>
+</html>
